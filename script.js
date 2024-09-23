@@ -6,6 +6,6 @@ button.addEventListener("click", () =>{
     const paragraf = document.getElementById("text");
     paragraf.style.fontSize = "30px";
     paragraf.style.color = "red";
-    let text = '';
-    text.innerHTML = '<h1>halo ini innerhtml </h1>';
+    let text = '<h1>halo ini innerhtml </h1>';
+    text.innerHTML;
 })
